@@ -8,8 +8,7 @@ int main()
     int N, res = 0;
     cin >> N;
 
-    while(N)
-    {
+    while(N){
         set[N%10]++;
         N /= 10;
     }
